@@ -186,13 +186,17 @@ This documentation provides details on the frontend of the URL Shortener applica
 
 ### Login-Page
 
-![Login Page]()
+![Login Page](./images/Login-Page.png)
 *Caption: Login Page*
 
 ### Signup-Page
-![Signup Page]()
+![Signup Page](./images/Signup-Page.png)
 *Caption: Signup Page*
 
 ### Home-Page
-![Main Page]()
+![Main Page](./images/Home_page.png)
+*Caption: Main Page*
+
+
+![Main Page](./images/Home-Page.png)
 *Caption: Main Page*
