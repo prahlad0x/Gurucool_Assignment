@@ -120,9 +120,6 @@ Use `api/auth/register` to create a new user account and `api/auth/login` to log
 5. [Components](#components)
 6. [Technical Details](#technical-details)
 7. [Code Quality](#code-quality)
-8. [Future Improvements](#future-improvements)
-9. [Contributing](#contributing)
-10. [License](#license)
 
 ## 1. Introduction
 This documentation provides details on the frontend of the URL Shortener application. The frontend is responsible for user authentication, displaying the main interface, and interacting with the server for URL shortening and retrieval.
