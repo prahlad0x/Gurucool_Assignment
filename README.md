@@ -1,24 +1,16 @@
-# URL Shortener App Documentation
+# URL Shortener App :-
+ - Frontend Live Link 🔗:  `https://url-shortener-by-prahlad.netlify.app/`
+ - Backend (Server) Link 🔗:  `https://pk-sh.onrender.com`
+
+# URL Shortener Backend App Documentation
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
 4. [Usage](#usage)
-    - [Shortening a URL](#shortening-a-url)
-    - [Accessing the Original URL](#accessing-the-original-url)
-    - [User Registration and Login](#user-registration-and-login)
 5. [Technical Details](#technical-details)
-    - [Backend](#backend)
-    - [Database](#database)
-    - [Security](#security)
 6. [API Documentation](#api-documentation)
-    - [Endpoint: `/shorten`](#endpoint-shorten)
-    - [Endpoint: `/redirect/:shortUrl`](#endpoint-redirectshorturl)
-    - [Endpoint: `/register`](#endpoint-register)
-    - [Endpoint: `/login`](#endpoint-login)
 7. [Future Improvements](#future-improvements)
 
 
@@ -116,4 +108,91 @@ Use `api/auth/register` to create a new user account and `api/auth/login` to log
 ### Coding Practices
 - Follows beginner-friendly coding practices.
 
+<hr>
 
+# URL Shortener App - Frontend Documentation
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Components](#components)
+6. [Technical Details](#technical-details)
+7. [Code Quality](#code-quality)
+8. [Future Improvements](#future-improvements)
+9. [Contributing](#contributing)
+10. [License](#license)
+
+## 1. Introduction
+This documentation provides details on the frontend of the URL Shortener application. The frontend is responsible for user authentication, displaying the main interface, and interacting with the server for URL shortening and retrieval.
+
+## 2. Features
+- User authentication with login and register pages.
+- Main page with a navigation bar, URL shortening form, and a container for displaying recently shortened URLs.
+- Copy to clipboard functionality for the generated URLs.
+
+## 3. Getting Started
+
+### Prerequisites
+- Any Browser
+
+### Installation
+1. Clone the repository. `git clone https://github.com/prahlad0x/Gurucool_Assignment/tree/main/ClientSide`
+2. Open the index.html file with `live server` or `copy the path of file and run on Browser`
+
+## 4. Usage
+
+### Login/Register Page
+- Parameters `User Email` and `password`
+- Access the login/register page at `/login` and `/register`.
+- Enter valid credentials for registration and login.
+
+### Main Page
+- After successful authentication, you will be redirected to the main page.
+- The main page contains a navigation bar, a URL shortening form, and a container for displaying recent URLs.
+  
+## 5. Components
+
+### Navbar
+- Contains navigation links (e.g., Home, Logout).
+
+### Shorten URL Form
+- Input field to enter the URL to be shortened.
+- Button to submit the form and make a POST request to the server.
+
+### Recent URLs Container
+- Displays a list of recently shortened URLs.
+- Shows the original URL, newly generated URL, and a copy button for each entry.
+
+## 6. Technical Details
+
+### Authentication
+- User authentication is handled securely using appropriate methods.
+
+### API Requests
+- Uses API requests to communicate with the backend for URL shortening and retrieval.
+
+### Copy to Clipboard
+- Implements a copy to clipboard functionality for the generated URLs.
+
+## 7. Code Quality
+
+### Clean and Structured Code
+- Codebase follows a modular and organized structure.
+
+
+## Images for Refrence
+
+### Login-Page
+
+![Login Page]()
+*Caption: Login Page*
+
+### Signup-Page
+![Signup Page]()
+*Caption: Signup Page*
+
+### Home-Page
+![Main Page]()
+*Caption: Main Page*
