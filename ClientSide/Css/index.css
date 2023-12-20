@@ -269,4 +269,12 @@ a:hover{
         flex: 1 0 80px;
     }
   }
+
+  #marquee{
+    color:rgb(176, 176, 176);
+  }
+
+  #marquee a{
+    color: #00cee1;
+  }
   

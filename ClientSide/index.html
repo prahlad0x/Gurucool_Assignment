@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="./Css/index.css">
+    <link rel="stylesheet" href="./Css/toast.css">
     <title>URL Shorter 🔗</title>
 </head>
 <body>
     <nav><h1>Home</h1> <h2 onclick="logout()">Logout</h2></nav>
+    <marquee id="marquee" behavior="scroll" direction="left">
+        Please have some patience as it takes time to retrieve data from the server. Our server is hosted on
+        <a target="_blank" href="https://dashboard.render.com/">Render.com</a>, so it may take some time to establish a connection.
+      </marquee>
+   <div  class="" id="snackbar">✓ Copied to clipboard</div>
+
    <div class="mainCont">
     <div class="secondary">
         <div class="inpDiv">

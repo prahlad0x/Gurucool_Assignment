@@ -436,3 +436,21 @@ p > b{
       transform: scale(1.2, 1);
     }
   }
+
+
+  @keyframes alternateLeft {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+  }
+
+  #marquee {
+    background: #ffffff00;
+    overflow: hidden;
+    z-index: 100;
+    font-size: larger;
+    font-weight:500;
+  }

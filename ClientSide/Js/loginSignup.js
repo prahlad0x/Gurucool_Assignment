@@ -1,4 +1,4 @@
-const url = "http://localhost:8088/api/auth";
+const url = "https://pk-sh.onrender.com/api/auth";
 
 let container = document.getElementById("container");
 let loader = document.getElementById("loader");

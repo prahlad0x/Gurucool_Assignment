@@ -8,7 +8,10 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
-	
+    <marquee id="marquee" behavior="alternate" direction="left">
+      Please have some patience as it takes time to retrieve data from the server. Our server is hosted on
+      <a href="https://dashboard.render.com/">Render.com</a>, so it may take some time to establish a connection.
+    </marquee>
     <div id="container" class="container">
       <!-- FORM SECTION -->
       <div class="row">
@@ -83,12 +86,14 @@
         </div>
         <!-- END SIGN UP CONTENT -->
       </div>
+      
       <!-- END CONTENT SECTION -->
     </div>
 	<div id="loader">
 		<div class="loader"></div>
 		<h3>Getting Your Info...</h3>
 	</div>
+
   </body>
   <script src="../Js/loginSignup.js"></script>
 </html>
